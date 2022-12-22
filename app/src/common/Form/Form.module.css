@@ -1,0 +1,105 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 20px;
+    width: 50%;
+    height: 100%;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.submit-button {
+    width: 100%;
+    height: 2.5rem;
+    border: 0px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: beige;
+    background-color: rgb(57, 53, 53);
+}
+
+.info-component {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 4rem;
+}
+
+.info-field-double {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 45%;
+    height: 100%;
+}
+
+.info-field-double label {
+    font: inherit;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 0.3rem;
+    color: beige;
+}
+
+.info-field-double input {
+    font: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 0px;
+    border-radius: 15px;
+    height: 40%;
+    background: #9e819e;
+    color: rgb(223, 223, 199);
+    padding: 0.2rem 0.5rem;
+}
+
+.info-field-single {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.info-field-single label {
+    font: inherit;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 0.3rem;
+    color: beige;
+}
+
+.info-field-single input {
+    font: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 0px;
+    border-radius: 15px;
+    height: 40%;
+    background: #9e819e;
+    color: rgb(223, 223, 199);
+    padding: 0.2rem 0.5rem;
+}
+
+.info-field-checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.info-field-checkbox label {
+    font: inherit;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 0.3rem;
+    color: beige;
+}
+
+.info-field-checkbox input {
+    height: 100%;
+    color: rgb(223, 223, 199);
+}

@@ -1,0 +1,77 @@
+.account-card {
+    position: absolute;
+    width: 70%;
+    height: 35rem;
+    top: 3rem;
+    transform: translate(20%, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: #563156;
+}
+
+.left-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    margin: 0rem;
+    top: 0rem;
+    left: 0rem;
+    width: 40%;
+    height: 100%;
+    background-image: url("../../../images/background-reg-1.jpeg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.right-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+    padding: 3rem 2rem;
+    gap: 2rem 0rem;
+    top: 0rem;
+    right: 0rem;
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url("../../../images/background-reg-3.jpeg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.right-card h1 {
+    top: 0rem;
+    text-align: center;
+    width: 100%;
+    color: beige;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.right-card .account-form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    top: 0rem;
+    gap: 0.5rem;
+    width: 80%;
+    height: 25rem;
+}
+
+.submit-button {
+    width: 100%;
+    height: 2.5rem;
+    border: 0px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: beige;
+    background-color: rgb(40, 37, 37);
+}

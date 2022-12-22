@@ -1,0 +1,27 @@
+  .navigation-bar {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    padding: 0rem;
+    order: 0;
+
+    width: 100%;
+    min-width: 1440px;
+    height: 4rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+
+    background: #313030;
+    z-index: 2;
+  }
+
+  .logo {
+    display: flex;
+    width: 8rem;
+    justify-content: center;
+    align-items: center;
+  }
