@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 import { Card, Form } from "../../../common";
 import styles from './Register.module.css';
 
@@ -108,6 +110,11 @@ const Register = (props: IRegisterProps) => {
                     submitButton={"Create Account"}
                     submitHandler={props.registerHandler}
                 />
+                <fieldset className={styles["third-party-auth"]}>
+                    <legend>Sign Up Using</legend>
+                    <FontAwesomeIcon icon={brands('facebook-f')} color="beige"/>
+                    <FontAwesomeIcon icon={brands('google')} color="beige"/>
+                </fieldset>
             </div>
         </Card>
     );
